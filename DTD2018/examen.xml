@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coches SYSTEM "examen.dtd">
+<coches>
+  Coches_Actuales
+  <modelo nombre="Renault" modelo="Scenic" />
+  <modelo nombre="Citröen" ruedas="Cuatro" />
+  <modelo nombre="BMW" ruedas="Cuatro + Repuesto" />
+  <modelo nombre="Suzuki" motor="1.9tdi" />
+  <combustible nombre="Renault">
+    <electrico>Si</electrico>
+    <gasolina>Si</gasolina>
+    <gasoleo>No</gasoleo>
+  </combustible>
+  <combustible nombre="Tesla">
+    <electrico>Si</electrico>
+    </combustible>
+  </coches>

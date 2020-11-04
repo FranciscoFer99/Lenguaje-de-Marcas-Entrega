@@ -1,0 +1,11 @@
+<!ELEMENT coches (#PCDATA | modelo | combustible)*>
+<!ELEMENT modelo EMPTY >
+<!ATTLIST modelo nombre ID #REQUIRED
+                    ruedas CDATA #IMPLIED
+                    modelo CDATA #IMPLIED
+                    motor CDATA #FIXED "1.9tdi">
+<!ELEMENT combustible (electrico, (gasoleo | gasolina)*)>
+<!ATTLIST combustible nombre ID #REQUIRED>
+<!ELEMENT electrico (#PCDATA)>
+<!ELEMENT gasoleo (#PCDATA)>
+<!ELEMENT gasolina (#PCDATA)>
